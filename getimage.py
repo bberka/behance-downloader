@@ -28,7 +28,7 @@ def main():
         try: 
             resp = requests.get(_input)
             get_url_images_in_text(resp.text)
-        except : print("Given string is not a valid link")
+        except : print("Given string is not a valid link, please enter link starts with www.behance.net/gallery")
 
 
 main()
